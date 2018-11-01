@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+</head>
+<body>
+	123
+</body>
+<script type="text/javascript">
+		alert(1);
+	var _menus = [{"icon":"icon-sys","menuid":1,"menuname":"控件使用","submenus":[{"icon":"icon-add","menuid":1,"menuname":"源码之家","submenuid":1,"url":"http://www.mycodes.net"},{"icon":"icon-users","menuid":1,"menuname":"用户管理","submenuid":2,"url":"demo.html"},{"icon":"icon-role","menuid":1,"menuname":"角色管理","submenuid":3,"url":"demo.html"},{"icon":"icon-set","menuid":1,"menuname":"权限设置","submenuid":4,"url":"demo.html"},{"icon":"icon-log","menuid":1,"menuname":"系统日志","submenuid":5,"url":"demo.html"}]},{"icon":"icon-sys","menuid":2,"menuname":"员工管理","submenus":[{"icon":"icon-nav","menuid":2,"menuname":"员工列表","submenuid":6,"url":"demo.html"},{"icon":"icon-nav","menuid":2,"menuname":"视频监控","submenuid":7,"url":"demo.html"}]},{"icon":"icon-sys","menuid":3,"menuname":"部门管理","submenus":[{"icon":"icon-nav","menuid":3,"menuname":"添加部门","submenuid":8,"url":"demo.html"},{"icon":"icon-nav","menuid":3,"menuname":"部门列表","submenuid":9,"url":"demo.html"}]},{"icon":"icon-sys","menuid":4,"menuname":"财务管理","submenus":[{"icon":"icon-nav","menuid":4,"menuname":"收支分类","submenuid":10,"url":"demo.html"},{"icon":"icon-nav","menuid":4,"menuname":"报表统计","submenuid":11,"url":"demo.html"},{"icon":"icon-nav","menuid":4,"menuname":"添加支出","submenuid":12,"url":"demo.html"}]},{"icon":"icon-sys","menuid":5,"menuname":"商城管理","submenus":[{"icon":"icon-nav","menuid":5,"menuname":"商品分类","submenuid":13,"url":"demo.html"},{"icon":"icon-nav","menuid":5,"menuname":"商品列表","submenuid":14,"url":"demo.html"},{"icon":"icon-nav","menuid":5,"menuname":"商品订单","submenuid":15,"url":"demo.html"}]}]
+	$.each(_menus, function(i, n) {
+		$.each(n.submenus,function(j,q){
+			alert(q.menuname);
+			
+		})
+    });
+</script>
+</html>
