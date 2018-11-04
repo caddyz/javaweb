@@ -20,5 +20,15 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="F:/apache-tomcat-8.0.47/bin/tomcat-juli.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-8.5.32/lib/servlet-api.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="https://docs.oracle.com/javaee/7/api/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_171">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
 </classpath>

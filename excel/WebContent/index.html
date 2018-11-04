@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+</head>
+<body>
+	<button type="button" id="download">下载</button>
+	<br/>
+	<form action="UpServlet" method="post" enctype="multipart/form-data">
+	文件上传<input type="file" name="file" /><input type="submit" value="提交"/></form>
+	<script type="text/javascript">
+		$(function() {
+			$(":button").click(function () {
+				location.href="DownLoadServlet"
+			});
+		});
+		
+	</script>
+</body>
+</html>
